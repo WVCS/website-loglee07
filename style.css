@@ -8,13 +8,22 @@ body{
   overflow-x: hidden;
 }
 h3{
+  margin-top: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem 9%;
   color: #b74b4b;
   font-size: 3rem;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
-  cursor: pointer;
-
+  cursor: default;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
   
 }
 
